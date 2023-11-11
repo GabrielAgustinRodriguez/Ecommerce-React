@@ -1,10 +1,11 @@
 import bulma from "bulma/css/bulma.css"
-import { AiOutlineShoppingCart } from 'react-icons/ai';
+import LogoNav from "./imagenes/libros.png";
+import Cartwidget from "../Cartwidget/cartwidget"
 
 
-function NabVar (props){
 
-    const {img} = props;
+function NavBar (){
+
 
     return(
 
@@ -12,7 +13,7 @@ function NabVar (props){
         <nav class="navbar is-light" role="navigation" aria-label="main navigation"> 
           <div class="navbar-brand">
             <a class="navbar-item" href="#">
-            <img src="{img}" width="112" height="28" alt = "logo"/>
+            <img src="{LogoNav}" width="112" height="28" alt = "logo"/>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -68,8 +69,7 @@ function NabVar (props){
             
             <div class="navbar-end">
               <div class="navbar-item">
-                <AiOutlineShoppingCart/>
-                <h6>6</h6>
+                <Cartwidget/>   
               </div>
             </div>
           </div>
@@ -79,4 +79,4 @@ function NabVar (props){
     )
 }
 
-export default NabVar 
+export default NavBar 

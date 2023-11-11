@@ -1,12 +1,12 @@
-import NavBar from "./components/NavBar/NavBar"
-import logoNav from "./imagenes/libros.png"
+import NavBar from "./components/NavBar/NavBar"; 
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 
 function App(){
 
     return (
         <div>
-            <NavBar img = {logoNav}/>
-            <img src="./imagenes/libros.JPG"></img> 
+            <NavBar/>
+            <ItemListContainer greeting = {"Bienvenidos"}/>
         </div>
 
     )
