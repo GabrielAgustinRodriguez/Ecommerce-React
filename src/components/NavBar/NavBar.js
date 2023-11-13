@@ -13,7 +13,8 @@ function NavBar (){
         <nav class="navbar is-light" role="navigation" aria-label="main navigation"> 
           <div class="navbar-brand">
             <a class="navbar-item" href="#">
-            <img src="{LogoNav}" width="112" height="28" alt = "logo"/>
+              <img src={LogoNav} width="122" height="56" alt = "Libros Reactivos"/>
+              <h1>Libros Reactivos</h1>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
